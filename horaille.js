@@ -19,7 +19,7 @@ function notifyAndQuitIfConfErrors() {
                     throw settingName + " must be either true or false";
                 }
             }
-            else if (settingName in booleanSubSettings) {
+            else if (settingName in booleanSubsettings) {
                 for (let subsettingName in settingValue) {
                     if (settingValue.hasOwnProperty(subsettingName)) {
                     var subsettingValue = settingValue[subsettingName];
@@ -40,7 +40,7 @@ function notifyAndQuitIfConfErrors() {
 notifyAndQuitIfConfErrors();
 
 
-function termux-tts-speak(toSay) {
+function termux_tts_speak(toSay) {
     api.createCommand()
         .ttsSpeak()
         .setTextToSpeak(toSay)
@@ -122,5 +122,5 @@ ical.fromURL(conf.URL, {}, function(err, data) {
     if (conf.repeat) {
         horaireTTS += "Je répète\n" +  horaireTTS;
     }
-    termux-tts-speak(greetings + horaireTTS)
+    termux_tts_speak(getGreetings() + horaireTTS)
 });
