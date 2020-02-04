@@ -1,0 +1,35 @@
+{
+  "name": "horaille",
+  "version": "1.0.0",
+  "description": "Node.js application running on Termux which reads out loud today's planned events stored in a ics calendar file.",
+  "main": "horaille.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/precondition/Horaille.git"
+  },
+  "keywords": [
+    "termux",
+    "tts",
+    "text-to-speech",
+    "javascript",
+    "bash",
+    "linux",
+    "cron",
+    "calendar",
+    "ics",
+    "node",
+    "android"
+  ],
+  "author": "precondition",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/precondition/Horaille/issues"
+  },
+  "homepage": "https://github.com/precondition/Horaille#readme",
+  "dependencies": {
+    "termux-api": "0.0.1"
+  }
+}
