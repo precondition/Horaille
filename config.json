@@ -1,0 +1,23 @@
+{
+    "name":"Monsieur Exemple",
+    "lang":"FR", 
+    "useURL":true,
+    "URL":"https://ucl2ics.appspot.com/get?key=5821",
+    "calendarname":"calendar.ics",
+    "notification":{
+        "DESCRIPTION":true,
+        "DTSTART":true,
+        "DTEND":false,
+        "LOCATION":true,
+        "SUMMARY":true
+    },
+     "text-to-speech":{
+        "DESCRIPTION":true,
+        "DTSTART":true,
+        "DTEND":false,
+        "LOCATION":false,
+        "SUMMARY":true
+     },
+    "repeat":true
+}
+    
